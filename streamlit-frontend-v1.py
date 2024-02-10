@@ -1,10 +1,10 @@
 import streamlit as st
 import openai
 import json
-openai.api_key=st.secrets[open_api_key]
+openai.api_key=st.secrets["open_api_key"]
 
 
-#'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'
+
 
 if 'key' not in st.session_state:
 
